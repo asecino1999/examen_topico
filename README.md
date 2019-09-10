@@ -23,7 +23,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
  Tiene un input para cada posicion de la matriz 
  avajo se muestran el  los valores tambien 
 
-![captura de interfas ]('captura_interfas.png')
+![]('captura_interfas.png')
 
 
 
