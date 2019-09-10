@@ -1,4 +1,9 @@
+# Practica
+
+Codigo : 20140372B
+
 ## Requierimentos : 
+
  instlar nodejs  , npm  y typescript  , y los paquetes de npm  :
 
  "bootstrap": "^4.3.1",
