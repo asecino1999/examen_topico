@@ -20,8 +20,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## instruciones de uso del App 
+Edicion del tamaño de la matriz incompleta(desabilitado) 
+
  Tiene un input para cada posicion de la matriz 
- avajo se muestran el  los valores tambien 
+
+ Abajo se muestran el  los valores tambien 
 
 ![captura de interfas ](capturaInterfas.png)
 
