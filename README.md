@@ -1,8 +1,28 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> b0973193568e8ba9aa85b4189a2e90a44d4341e0
+## Requierimentos : 
+ instlar nodejs  , npm  y typescript  , y los paquetes de npm  :
+ "bootstrap": "^4.3.1",
+ "react": "^16.9.0"
+ "react-bootstrap": "^1.0.0-beta.12",
+
+## Arcuhivos importante 
+App.tsx : interfas grafica 
+Adapter(ts/js) : archivo con las clases , culaquier modicacion de typescript requiere que compilar Adatper.ts para generar el archivo js antes de correr react 
+
+### Uso de React 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+
+## instruciones de uso del App 
+ Tiene un input para cada posicion de la matriz 
+ avajo se muestran el  los valores tambien 
+
+![captura de interfas ]('./captura_interfas.png')
+
+
+
+
+
 
 ## Available Scripts
 
@@ -46,9 +66,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-<<<<<<< HEAD
-=======
-=======
-# examen_topico
->>>>>>> 886d29463a741c232564cd007d4dd8fb344fc3d3
->>>>>>> b0973193568e8ba9aa85b4189a2e90a44d4341e0
+

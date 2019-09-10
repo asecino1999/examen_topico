@@ -18,7 +18,7 @@
   },
   "scripts": {
 
-    "start": "tsc './src/Adapter.ts' &&  react-scripts start",
+    "start": " react-scripts start",
 
     "build": "react-scripts build",
     "test": "react-scripts test",

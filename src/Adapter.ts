@@ -1,5 +1,3 @@
-
-
 export class Matriz {
     matriz:number[][];
     constructor(x:number, y:number ){
@@ -115,5 +113,3 @@ export class Adapter extends AbstractAdapter{
 //var adapter:Adapter=new Adapter(3,4,new Vector(12));
 //console.log(adapter.setElement(3,2,80));
 //console.log(adapter.vector);
-
-

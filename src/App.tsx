@@ -1,7 +1,7 @@
 import React from 'react';
-import {Vector,Adapter} from './Adapter'
+import {Adapter} from './Adapter';
 //import logo from './logo.svg';
-//import './App.css';
+import './App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -21,7 +21,7 @@ class App extends React.Component<{}, IState> {
   constructor(props:any){
     super(props);
     var fil=5;
-    var col=3;
+    var col=4;
 
     this.state={
       color:"red",
@@ -62,12 +62,12 @@ class App extends React.Component<{}, IState> {
 
 
   return (
-    <div className="App" style={ {backgroundColor: this.state.color}}>
+    <div className="App" >
       <button onClick={()=>this.setG()}>set size </button>
-      <div> numero de filas <input type="number" value={this.state.fil} /></div>
-      <div> numero de columnas <input type="number" value={this.state.col} /></div>
-
-      <Container>
+      <div> numero de filas <input type="number" value={this.state.fil} contentEditable={false} /></div>
+      <div> numero de columnas <input type="number" value={this.state.col} contentEditable={false}/></div>
+      <div> Inserte Valores </div>
+      <Container id={"InputMat"}>
         
       {
         fil.map((element, index) => {
@@ -89,7 +89,11 @@ class App extends React.Component<{}, IState> {
       }
         
       </Container>
-      <Container>
+
+      <div>
+        valores de la matriz 
+      </div>
+      <Container  id={"ValorMat"}>
         
         {
           fil.map((element, index) => {
@@ -99,7 +103,7 @@ class App extends React.Component<{}, IState> {
                 {
                   col.map((element,index2) => {
                     //console.log("itera 2 "+index2)
-                    return(<Col key={"2index"+index+"index2"+index2}>
+                    return(<Col id={"Out"} key={"2index"+index+"index2"+index2}>
                      {this.state.adap.getElement(index,index2)}
                     </Col>)
                     ;
