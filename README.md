@@ -1,12 +1,18 @@
 ## Requierimentos : 
  instlar nodejs  , npm  y typescript  , y los paquetes de npm  :
+
  "bootstrap": "^4.3.1",
+ 
  "react": "^16.9.0"
+ 
  "react-bootstrap": "^1.0.0-beta.12",
 
-## Arcuhivos importante 
+## Archivos importante 
 App.tsx : interfas grafica 
-Adapter(ts/js) : archivo con las clases , culaquier modicacion de typescript requiere que compilar Adatper.ts para generar el archivo js antes de correr react 
+
+Adapter(ts/js) : archivo con las clases 
+
+
 
 ### Uso de React 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -17,7 +23,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
  Tiene un input para cada posicion de la matriz 
  avajo se muestran el  los valores tambien 
 
-![captura de interfas ]('./captura_interfas.png')
+![captura de interfas ]('captura_interfas.png')
 
 
 
